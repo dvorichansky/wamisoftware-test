@@ -1,0 +1,47 @@
+/* subscribe notice */
+.subscribe-notice {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.subscribe-notice-label {
+    width: 100%;
+    margin: 0;
+}
+
+.subscribe-notice-form {
+    margin-top: 10px;
+}
+
+.subscribe-notice-form > button {
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.subscribe-notice-form-group input {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .subscribe-notice {
+        display: flex;
+        align-items: flex-start;
+    }
+    .subscribe-notice-label {
+        max-width: 140px;
+        margin: 0 100px 0 0;
+    }
+}
+
+@media (min-width: 576px) {
+    .subscribe-notice-form {
+        display: flex;
+        align-items: start;
+        flex-grow: 1;
+    }
+
+    .subscribe-notice-form > button {
+        margin: 0 0 0 20px;
+        max-width: 220px;
+    }
+}

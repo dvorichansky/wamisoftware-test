@@ -1,0 +1,71 @@
+
+/* bootstrap custom */
+.container {
+    max-width: 1110px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.bg-light {
+    background-color: #f3f3f3 !important;
+}
+
+.border,
+.border-top,
+.border-right,
+.border-bottom,
+.border-left {
+    border-color: #e6e6e6 !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:focus {
+    background-color: #ff8364;
+    border-color: #ff8364;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+.btn-link,
+.btn-link:hover {
+    color: #ff8364;
+}
+
+.btn-sm {
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+a.btn-sm {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+}
+
+button.btn-sm {
+    min-width: 120px;
+    height: 32px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.btn-lg,
+.form-control-lg {
+    border-radius: 8px;
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+    padding: 12px 24px;
+    height: auto;
+}
+
+.form-control {
+    color: #616161;
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+}

@@ -1,0 +1,78 @@
+body {
+    font-weight: "Helvetica Neue", sans-serif;
+    min-width: 320px;
+    color: #141414;
+}
+
+h1,
+.h1,
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -1.2px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 22px;
+    letter-spacing: -0.6px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+h4,
+.h4 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    line-height: 30px;
+    color: #616161;
+}
+
+.text-small {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+    color: #616161;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #dedede;
+}
+
+.ui-list {
+    list-style: none;
+    padding-left: 35px;
+}
+
+.ui-list li {
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.ui-list li::after {
+    content: "";
+    position: absolute;
+    left: -35px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #b9b9b9;
+}
